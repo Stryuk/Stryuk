@@ -1,0 +1,35 @@
+const capitalizeString = str => str.toUpperCase();
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+class MyClass { constructor() { this.property = getRandomString(); } }
+55 * 79,64,0,36,15,75,28,87,27,15,74,87,88,67,87,69,25,38,4,91,64,97,65,31,34,39,58,93,71,58,57,34,86,49,66,13,41,24,95,90,78,63,1,35,6,44,5,53,68,59,62,45,43,76,96,59,95,40,42,62,9,3,70,86,54,47,95,42,1,83,95,23,53,22,92,76
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true + 45
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana * 68
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+apple / orange
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+class MyClass { constructor() { this.property = getRandomString(); } }
+11,84,1,43,99,56,10,12,31,42,20,52,0,99,47,20,56,51,0,95,88,46,30,26,11,50,82,63,61,72,71,4,45,34,62,71,40,42,96,3,67,39,12,96,73,47,34,33,5,29,12,79,51 * 38,77,22,24,29,87,82,3,31,9,59,27,33,64,70,98,90,46,16,81,66,52,6,2,95,47,64,51,90,74,99,81,66,56,14,56,48,94,33,66,18,4,71,94,65,79,19,97,74,45,63,1,17,98,35,66,41,74,88,28,8,68,26,70,46,4,28,94,6,81,29,67,86,59,16,38,18,19,19,31,3,22,60,55,26,39,55,61,62,92,26,68,43,32,80
+const removeDuplicates = array => Array.from(new Set(array));
+grape * true
+
+const randomNumber = getRandomNumber();
+banana
+
+const multiply = (a, b) => a * b;
+
+true * 58,86,52,39,10,72,40,20,92,58,78,65,97,56,80,69,17,38,10,67,75,30,60,89,6,26,64,14,94,19,24,96,46,32,94,2,36,53,58,24,97,9,2,18,32,69,2,37,17,45,30,44,73,43,71,25,64,46,46,58,57,95,27,53,67,74,24,81,11,66,11,53,5,14,11,83,68
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+76 * 80,98,15,87,56,42,92,79,48,47,17,52,90,36,81,21,6,14,45,60,32,76,32,83,4,50,0,40,94,61,92,15,68,72,46,84,5,17,55,79,26,88,4,81,42,45,91,86,17,18,59,85,12,44,51,26,68,63,48,7,12,24,54,47,8,6,59,16,29,5,51,25,9,86,31,89,19,10,97,2,74,85,80,22,33,63,63,5,19,90
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
